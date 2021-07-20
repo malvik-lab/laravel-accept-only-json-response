@@ -5,7 +5,7 @@ namespace MalvikLab\LaravelAcceptOnlyJsonResponse\Providers;
 use Illuminate\Support\ServiceProvider;
 use MalvikLab\LaravelAcceptOnlyJsonResponse\Http\Middleware\LaravelAcceptOnlyJsonResponseMiddleware;
 
-class AcceptOnlyJsonResponseServiceProvider extends ServiceProvider
+class LaravelAcceptOnlyJsonResponseServiceProvider extends ServiceProvider
 {
     private const VERSION = '1.0.0';
 

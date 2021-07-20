@@ -1,6 +1,6 @@
 {
     "name": "malvik-lab/laravel-accept-only-json-response",
-    "description": "",
+    "description": "Block requests that don't accept json in response.",
     "keywords": ["Laravel", "Response", "Json"],
     "license": "MIT",
     "authors": [
@@ -18,7 +18,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MalvikLab\\LaravelAcceptOnlyJsonResponse\\Providers\\AcceptOnlyJsonResponseServiceProvider"
+                "MalvikLab\\LaravelAcceptOnlyJsonResponse\\Providers\\LaravelAcceptOnlyJsonResponseServiceProvider"
             ]
         }
     },
