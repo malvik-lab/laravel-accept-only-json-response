@@ -1,0 +1,30 @@
+{
+    "name": "malvik-lab/laravel-accept-only-json-response",
+    "description": "",
+    "keywords": ["Laravel", "Response", "Json"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vittorio Malaspina",
+            "email": "vittorio.malaspina@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MalvikLab\\LaravelAcceptOnlyJsonResponse\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MalvikLab\\LaravelAcceptOnlyJsonResponse\\Providers\\AcceptOnlyJsonResponsetServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
