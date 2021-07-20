@@ -4,7 +4,7 @@ namespace MalvikLab\LaravelAcceptOnlyJsonResponse\Http\Middleware;
 
 use Closure;
 
-class LaravelAcceptOnlyJsonResponsetMiddleware
+class LaravelAcceptOnlyJsonResponseMiddleware
 {
     public function handle($request, Closure $next)
     {
