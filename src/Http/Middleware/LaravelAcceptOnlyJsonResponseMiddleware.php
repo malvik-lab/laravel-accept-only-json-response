@@ -10,9 +10,8 @@ class LaravelAcceptOnlyJsonResponseMiddleware
     {
         if ( !$request->hasHeader('accept') || 'application/json' !== $request->header('accept') )
         {
-            return response()->json([
-                'error' => 'Use the "Accept: application/json" HTTP Header'
-            ], 400);
+            return response('Use the "Accept: application/json" HTTP Header', 400)
+                ->header('Content-Type', 'text/plain');
         }
 
         return $next($request);

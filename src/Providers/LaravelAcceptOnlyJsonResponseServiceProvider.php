@@ -7,7 +7,7 @@ use MalvikLab\LaravelAcceptOnlyJsonResponse\Http\Middleware\LaravelAcceptOnlyJso
 
 class LaravelAcceptOnlyJsonResponseServiceProvider extends ServiceProvider
 {
-    private const VERSION = '1.0.0';
+    private const VERSION = '1.0.1';
 
     public function boot()
     {
